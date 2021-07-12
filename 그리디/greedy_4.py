@@ -13,7 +13,7 @@ def minus():
     n -= 1
 
 while n != 1:
-    if n > k:
+    if n >= k:
         divide()
     else:
         minus()
