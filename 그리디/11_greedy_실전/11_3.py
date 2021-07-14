@@ -1,3 +1,5 @@
+import math
+
 my_str = list(input())
 
 cnt = 0
@@ -7,4 +9,4 @@ for i in range(1, len(my_str)):
     else:
         pass
     
-print(ceil(int(cnt/2)))
+print(math.ceil(cnt/2))
