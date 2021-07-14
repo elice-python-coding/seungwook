@@ -7,4 +7,4 @@ for i in range(1, len(my_str)):
     else:
         pass
     
-print(int(cnt/2))
+print(ceil(int(cnt/2)))
